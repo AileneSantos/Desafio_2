@@ -5,187 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codar</title>
-    <style>
-        *{
-            margin:0px;
-            padding: 0px;
-        }
-        div img{
-            display: block;
-            margin: auto;
-            font-weight: normal;
-        }
-        body{
-            min-width: 300px;
-            min-width: 700px;
-        }
-        
-        nav{
-            margin-top: 30px;
-        }
-        nav > a{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20pt;
-            color: black;
-            text-decoration: none;
-            margin-left: 40px;
-        }
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMNS5t9UJ0Z" crossorigin="anonymous">
 
-        .dif{
-            background-color: #D6000D;
-            border-radius: 8px;
-            color:white;
-            padding: 10px 20px;
-        }
-
-        .principal{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 35pt;
-            font-style: italic;
-            color: #D6000D;
-            text-decoration: none;
-            margin-left: 200px;
-        }
-
-        .teste{
-            display:flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 100px;
-        }
-
-        .dest2{
-            background-color: #D6000D;
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            width: 400px;
-            height: 60px;
-            border-radius: 20px;
-            text-align: center;
-            line-height:60px;
-        }
-        div>p{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20pt;
-            margin-right: 300px;
-        }
-        div>h1{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 50pt;
-            color:#D6000D;
-            margin: 30px 210px 30px 0px;
-        }
-
-        .div2{
-            display:flex;
-            align-items: center;
-            justify-content: space-between;
-            margin: 200px 100px 100px 200px;
-        }
-
-        div> ul{
-            margin-top: 20px;
-            list-style-type: '\1F534\0020\0020';
-            list-style-position: inside;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 25pt;
-            padding-left: 100px;
-        }
-
-        aside{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20pt;
-            margin-left: 300px;
-        }
-        .celular{
-            text-decoration: none;
-            text-align: left;
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            background-color: rgb(160, 160, 160);
-            padding: 10px 60px 10px 60px;
-            border-radius: 12px;
-            margin: 0px 20px 0px 0px;
-        }
-        .ligamos{
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            background-color: red;
-            padding: 10px 60px 10px 60px;
-            border-radius: 15px;
-            margin: 0px 20px 0px 0px;
-        }
-
-        footer{
-            background-color: black;
-            height: 250px;
-            color: white;
-        }
-    </style>
 </head>
 <body>
-    <nav>
-        <a href="#" class="principal"><strong>Codar</strong>.</a>
-        <a href="#" style="margin-left: 490px">Início</a>
-        <a href="#">Serviços</a>
-        <a href="#">Contato</a>
-        <a href="#" class="dif">Login</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    
+    <nav class="container">
+        <div class="row">
+
+            <div class="col-md-6 col-sm-6 col-sm-6 col-xs-12 div1"> Codar.</div>
+            <div class="col-md-6 col-sm-6 col-sm-6 col-xs-12 div2">
+                <a href="#">Início</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+                <a class="especial" href="#">Login</a>
+            </div>
+
+        </div>
     </nav>
     
-    <div class="teste">
-        <div>
-            <img style="margin-left: 260px"; src="assets/video_call.png" alt="foto" width="380" height="380">
-        </div>
-
-        <div>
-            <p><strong>Alavanque seu negócio com um</strong></p>
-            <h1>Website incrível</h1>
-            <p class="dest2">Solicitar orçamento</p>
+    <div class=" container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 div6 text-center">
+                <img class="img-fluid" src="assets/video_call.png" alt="foto" width="380" height="380">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 div7 text-left">
+                <p><strong>Alavanque seu negócio com um</strong></p>
+                <h1>Website incrível</h1>
+                <p class="solicitar">Solicitar orçamento</p>
+            </div>
         </div>
     </div>
 
-    <div class="div2">
-        <ul>
-            <li>Domínio personalizado</li>
-            <li>Hospedagem</li>
-            <li>Site responsivo</li>
-            <li>Redes sociais</li>
-            <li>Chat online</li>
-            <li>Blog integrado</li>
-        </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 div8">
+                <ul>
+                    <li>Domínio personalizado</li>
+                    <li>Hospedagem</li>
+                    <li>Site responsivo</li>
+                    <li>Redes sociais</li>
+                    <li>Chat online</li>
+                    <li>Blog integrado</li>
+                </ul>
+            </div>
 
-        <div>
-            <img style="margin-right: 150px"; src="assets/coding_.png" alt="foto" width="480" height="480">
+            <div class="col-md-6 col-sm-6 col-xs-12 div9 text-center">
+                <img class="img-fluid" src="assets/coding_.png" alt="foto" width="400" height="400">
+            </div>
         </div>
     </div>
     
-    <aside>
-        <p><strong>Nossa equipe está à disposição!</strong></p>
-            <a class="celular" href="#">Celular</a>
-            <a class="ligamos" href="#">Ligamos pra você</a>
-    </aside>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 div10">
+                <p><strong>Nossa equipe está à disposição!</strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 div11"><a href="#">Celular</a></div>
+            <div class="col-md-6 col-sm-6 col-xs-12 div12"><a href="#">Ligamos para você</a></div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 div13">
+                <p>Já tive experiências com outras 4 empresas <br>da área e a Codar é sem sombra de dúvidas</br>superior em todos os aspectos.</br><strong>Pedro Ferreira</strong></br> Construtora Minari</br></p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 div14">
+                <p>Processos bem simples e criação de um <br>site exatamente como a minha escola</br> queria! <br><strong>Maria Rita</strong></br>Escola Criança Feliz</br></p>
+            </div>
+        </div>
+    </div>
 
-    <footer 
-    style="background-color: black; columns: 4; list-style: none; font-family: Arial, Helvetica, sans-serif; margin-top: 100px;">
+    <div class="container">
+    
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 div15" >
+                <strong>Codar.</strong>
+                    <br>Criamos websites incríveis</br>
+            </div>
 
-    <ul style="font-size:20pt;margin-top: 0px; margin-bottom: 10px;padding-top: 30px; font-style: italic;">Codar.</ul>
-        <li style="margin-left:40px">Criamos websites incríveis</li>
+            <div class="col-md-3 col-sm-3 col-xs-12 div15">
+               <strong>Sobre</strong>
+                <br>Amamos criar soluções e entregar sites incríveis</br>
+            </div>
 
-    <ul style="font-size:15pt;margin-top: 0px; margin-bottom: 10px;padding-top: 30px">Sobre</ul>
-
-        <li style="margin-left:40px;">Amamos criar soluções <br>e entregar sites incríveis</br></li>
-
-    <ul style="font-size:15pt;margin-top: 0px; margin-bottom: 10px;padding-top: 30px">Contato</ul>
-
-        <li style="margin-left:40px">123 Av. Manjar - Nárnia
-        <br>+55 96 2321-3131 <br>contato@codar.com</br></li>
-
-        
-    <ul style="font-size:15pt;margin-top: 0px; margin-bottom: 10px;padding-top: 30px">Redes sociais</ul>
-        
-    </footer>
+            <div class="col-md-3 col-sm-3 col-xs-12 div15">
+                <strong>Contato</strong>
+                <br>
+                    123 Av. Manjar - Nárnia
+                    +55 96 2321-3131
+                    <br>contato@codar.com</br>
+                </br>
+            </div>
+            
+            <div class="col-md-3 col-sm-3 col-xs-12 div15"><strong>Redes sociais</strong>
+                <br>
+                <img src="assets/insta.png" alt="fotoinsta" width="30px" height="30px">
+                <img src="assets/face'.png" alt="fotoface" width="30px" height="30px">
+                <img src="assets/twitter.png" alt="fototwitter" width="30px" height="30px">
+                </br>
+            </div>
+            
+        </div>
+    
+    </div>
 </body>
 </html>
 
