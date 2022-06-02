@@ -1,113 +1,126 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codar</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMNS5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMNS5t9UJ0Z" crossorigin="anonymous">
 
 </head>
+
 <body>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 
-    
-    <nav class="container">
-        <div class="row">
-
-            <div class="col-md-6 col-sm-6 col-sm-6 col-xs-12 div1"> Codar.</div>
-            <div class="col-md-6 col-sm-6 col-sm-6 col-xs-12 div2">
-                <a href="#">Início</a>
-                <a href="#">Serviços</a>
-                <a href="#">Contato</a>
-                <a class="especial" href="#">Login</a>
-            </div>
-
-        </div>
-    </nav>
-    
-    <div class=" container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12 div6 text-center">
-                <img class="img-fluid" src="assets/video_call.png" alt="foto" width="380" height="380">
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 div7 text-left">
-                <p><strong>Alavanque seu negócio com um</strong></p>
-                <h1>Website incrível</h1>
-                <p class="solicitar">Solicitar orçamento</p>
-            </div>
-        </div>
-    </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12 div8">
-                <ul>
-                    <li>Domínio personalizado</li>
-                    <li>Hospedagem</li>
-                    <li>Site responsivo</li>
-                    <li>Redes sociais</li>
-                    <li>Chat online</li>
-                    <li>Blog integrado</li>
-                </ul>
-            </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-12 div9 text-center">
-                <img class="img-fluid" src="assets/coding_.png" alt="foto" width="400" height="400">
-            </div>
+            <header class="col-12 d-flex align-items-center justify-content-between py-4">
+                <span>Codar.</span>
+                <ul class="m-0">
+                    <a class="m-0 mr-5 py-2" href="">Início</a>
+                    <a class="m-0 mr-5 py-2" href="">Serviços</a>
+                    <a class="m-0 mr-5 py-2" href="">Contato</a>
+                    <a class="m-0 bg-danger p-3 text-white rounded" href="">Login</a>
+                </ul>
+            </header>
         </div>
     </div>
-    
+
+    <section id="hero-area">
+        <div class=" container">
+            <div class="row">
+                <div class="col-6 div6 pt-5">
+                    <img class="img-fluid" src="assets/video_call.png" alt="foto" width="380" height="380">
+                </div>
+                <div class="col-6 div7 text-left pt-5 d-flex align-items-center">
+                    <div>
+                        <p><strong>Alavanque seu negócio com um</strong></p>
+                        <h1>Website incrível</h1>
+                        <p class="solicitar">Solicitar orçamento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vantagens">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 div8 text-left pt-5 d-flex align-items-center">
+                    <div>
+                        <ul>
+                            <li>Domínio personalizado</li>
+                            <li>Hospedagem</li>
+                            <li>Site responsivo</li>
+                            <li>Redes sociais</li>
+                            <li>Chat online</li>
+                            <li>Blog integrado</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 div9 col-6 div7 text-left pt-5 d-flex align-items-center justify-content-end">
+                    <img class="img-fluid" src="assets/coding_.png" alt="foto" width="400" height="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 div10">
                 <p><strong>Nossa equipe está à disposição!</strong></p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12 div11"><a href="#">Celular</a></div>
-            <div class="col-md-6 col-sm-6 col-xs-12 div12"><a href="#">Ligamos para você</a></div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12 div13">
-                <p>Já tive experiências com outras 4 empresas <br>da área e a Codar é sem sombra de dúvidas</br>superior em todos os aspectos.</br><strong>Pedro Ferreira</strong></br> Construtora Minari</br></p>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 div14">
-                <p>Processos bem simples e criação de um <br>site exatamente como a minha escola</br> queria! <br><strong>Maria Rita</strong></br>Escola Criança Feliz</br></p>
+                <a class="btn btn-secondary px-5" href="#">Celular</a>
+                <a class="btn btn-danger px-5" href="#">Ligamos para você</a>
             </div>
         </div>
     </div>
 
     <div class="container">
-    
         <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-12 div15" >
+            <div class="col-xs-12 col-sm-6 div13">
+                <p>Já tive experiências com outras 4 empresas <br>da área e a Codar é sem sombra de dúvidas</br>superior
+                    em todos os aspectos.</br><strong>Pedro Ferreira</strong></br> Construtora Minari</br></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 div14">
+                <p>Processos bem simples e criação de um <br>site exatamente como a minha escola</br> queria!
+                    <br><strong>Maria Rita</strong></br>Escola Criança Feliz</br></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 div15">
                 <strong>Codar.</strong>
-                    <br>Criamos websites incríveis</br>
+                <br>Criamos websites incríveis</br>
             </div>
 
             <div class="col-md-3 col-sm-3 col-xs-12 div15">
-               <strong>Sobre</strong>
+                <strong>Sobre</strong>
                 <br>Amamos criar soluções e entregar sites incríveis</br>
             </div>
 
             <div class="col-md-3 col-sm-3 col-xs-12 div15">
                 <strong>Contato</strong>
                 <br>
-                    123 Av. Manjar - Nárnia
-                    +55 96 2321-3131
-                    <br>contato@codar.com</br>
+                123 Av. Manjar - Nárnia
+                +55 96 2321-3131
+                <br>contato@codar.com</br>
                 </br>
             </div>
-            
+
             <div class="col-md-3 col-sm-3 col-xs-12 div15"><strong>Redes sociais</strong>
                 <br>
                 <img src="assets/insta.png" alt="fotoinsta" width="30px" height="30px">
@@ -115,12 +128,10 @@
                 <img src="assets/twitter.png" alt="fototwitter" width="30px" height="30px">
                 </br>
             </div>
-            
+
         </div>
-    
+
     </div>
 </body>
+
 </html>
-
-
-

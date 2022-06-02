@@ -1,129 +1,99 @@
+header span {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    font-style: italic;
+}
 
-    .div1{
-        color: red;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 35pt;
-        font-style: italic;
-        padding-top: 20px;
-    }
-    .div2>a{
-        color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15pt;
-        text-decoration: none;
-        padding-left: 40px;
-        padding-top: 30px;
-        padding-top: 20px;
-    }
+header ul a {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 25px !important;
+    text-decoration: none;
+}
 
-    a.especial{
-        color: white;
-        text-align:center;
-        padding: 5px 5px 5px 30px;
-        border-radius: 12px;
-    }
+a.especial {
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 30px;
+    border-radius: 12px;
+}
 
-    .div6{
-        padding-top: 100px;
-    }
+.div7 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+}
 
-    .div7{
-        padding-top: 170px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15pt;
-    }
-    .div8>ul{
-        padding-top: 250px;
-        padding-left: 150px;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 20pt;
-        list-style-position: inside;
-        list-style-type: '\1F534\0020\0020'
-    }
-    .div9{
-        padding-top: 190px;
-    }
+.div8 ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    list-style-position: inside;
+    list-style-type: '\1F534\0020\0020'
+}
 
-    .div10>p{
-        padding-top: 50px;
-        padding-left: 150px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20pt;
-    }
-    .div11>a{
-        padding-left: 250px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20pt;
-        color: white;
-        background-color: darkgray;
-        padding: 10px;
-        border-radius: 10px;
-    }
-    .div12>a{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20pt;
-        color: white;
-        background-color:#D6000D;
-        width: 250px;
-        padding: 10px 50px 10px 50px;
-        border-radius: 10px;
-        margin-top: 10px;
-    }
+.div10>p {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
 
-    .div13>p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12pt;
-        background-color: lightgrey;
-        border-radius: 15px;
-        padding: 20px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        border: 1px solid darkgray;
-    }
 
-    .div14>p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12pt;
-        background-color: lightgrey;
-        border-radius: 15px;
-        padding: 20px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        border: 1px solid darkgray;
-    }
 
-    .div15{
-        background-color: black;
-        color: white;
-        padding-top: 30px;
-        padding-bottom: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12pt;
-    }
+.div13>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 1px solid darkgray;
+}
 
-    .div15>p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15pt;
-    }
+.div14>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 1px solid darkgray;
+}
 
-    div>h1{
-        color: #D6000D;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 50pt;
-        padding-bottom: 20px
-    }
-    div>p{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    .solicitar{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: white;
-        background-color: #D6000D;
-        width: 400px;
-        height: 50px;
-        font-size: 20pt;
-        border-radius: 12px;
-        line-height: 50px;
-        text-align: center;
-    }
+.div15 {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
 
+.div15>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+div>h1 {
+    color: #D6000D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50pt;
+    padding-bottom: 20px
+}
+
+div>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.solicitar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #D6000D;
+    width: 400px;
+    height: 50px;
+    font-size: 20pt;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
